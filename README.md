@@ -28,3 +28,6 @@ I got this code from stack overflow: https://stackoverflow.com/questions/7717527
 I got my reset css from here: http://meyerweb.com/eric/tools/css/reset/#my-portfolio
 
 
+## Link to My Portfolio
+
+https://sacredsoulrend.github.io/my-portfolio/
