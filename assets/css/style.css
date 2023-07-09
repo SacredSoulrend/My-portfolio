@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+  background-image: url("https://rare-gallery.com/thumbs/351193-4k-wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fdfdff;
+}
+
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: #f9f9f9;
+  background-image: linear-gradient(to right, #ffffff, #7264f0);
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 30px;
+  color: #030303;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+  font-size: 22px;
+  color: #bd0d0d;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  display: block;
+  margin: 0 auto;
+}
+
+img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+p {
+  font-family: "Times New Roman", serif;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #000000;
+  text-align: justify;
+  border-left: 3px solid #ffcc00;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+p::first-letter {
+  font-size: 30px;
+  color: #080cee;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-family: "Arial Black", sans-serif;
+}
+
+p strong {
+  font-style: italic;
+  color: #d0ff00;
+}
+
+.applications {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.applications a {
+  flex-basis: calc(33.33% - 20px);
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+}
+
+.applications a:first-child {
+  flex-basis: 66%;
+  z-index: 1;
+}
+
+.applications a:first-child img {
+  width: 100%;
+}
+
+.applications a:hover {
+  transform: translateY(-5px) scale(1.02);
+}
+
+.applications img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.applications img:hover {
+  border-color: #ff6600;
+}
+
+
+section#contact ul {
+  text-align: center;
+  padding: 0;
+}
+
+section#contact li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .applications a {
+    flex-basis: calc(50% - 20px);
+  }
+  .applications {
+    display: block;
+  }
+}
