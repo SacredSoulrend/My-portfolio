@@ -192,6 +192,7 @@ section#contact li {
   .applications a {
     flex-basis: calc(50% - 20px);
   }
+
   .applications {
     display: block;
   }
