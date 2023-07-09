@@ -22,18 +22,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Credits
 
-// Smooth scroll functionality for the navigation links<br>
-// I got this code from stack overflow: https://stackoverflow.com/questions/7717527/
-smooth-scrolling-when-clicking-an-anchor-link<br>
-document.querySelectorAll('nav a').forEach(anchor => {<br>
-anchor.addEventListener('click', function (e) {<br>
-e.preventDefault();<br>
+Smooth scroll functionality for the navigation links<br>
+I got this code from stack overflow: https://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link<br>
 
-document.querySelector(this.getAttribute('href')).scrollIntoView({<br>
-    behavior: 'smooth'<br>
-});<br>
-   });<br>
-});
+I got my reset css from here: http://meyerweb.com/eric/tools/css/reset/#my-portfolio
 
-// I got my reset css from here:<br>
-/* http://meyerweb.com/eric/tools/css/reset/#my-portfolio
+
