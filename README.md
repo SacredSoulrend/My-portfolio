@@ -27,6 +27,8 @@ I got this code from stack overflow: https://stackoverflow.com/questions/7717527
 
 I got my reset css from here: http://meyerweb.com/eric/tools/css/reset/#my-portfolio
 
+Tutor(Faran Navazi) recommended I use "display: block" when changing the media screen.
+
 
 ## Link to My Portfolio
 
