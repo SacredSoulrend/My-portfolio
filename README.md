@@ -36,4 +36,4 @@ document.querySelector(this.getAttribute('href')).scrollIntoView({<br>
 });
 
 // I got my reset css from here:<br>
-/* http://meyerweb.com/eric/tools/css/reset/ # my-portfolio
+/* http://meyerweb.com/eric/tools/css/reset/#my-portfolio
