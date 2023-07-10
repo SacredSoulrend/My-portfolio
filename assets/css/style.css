@@ -1,3 +1,4 @@
+/* universal styles */
 * {
   box-sizing: border-box;
 }
@@ -14,6 +15,7 @@ body {
   background-position: center center;
 }
 
+/* header styles */
 header {
   background-color: #000;
   color: #fff;
@@ -29,6 +31,7 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+/* styles for nav section */
 nav {
   background-color: #ffffff;
   padding: 10px;
@@ -60,11 +63,12 @@ nav a:hover {
   color: #fdfdff;
 }
 
-
+/* styles for main section */
 main {
   padding: 20px;
 }
 
+/* styling for each section */
 section {
   background-color: #f9f9f9;
   background-image: linear-gradient(to right, #ffffff, #7264f0);
@@ -94,6 +98,7 @@ h3 {
   text-align: center;
 }
 
+/* image styling */
 img {
   max-width: 100%;
   height: auto;
@@ -134,6 +139,7 @@ p strong {
   color: #d0ff00;
 }
 
+/* styles for the applications */
 .applications {
   display: flex;
   justify-content: center;
@@ -177,7 +183,7 @@ p strong {
   border-color: #ff6600;
 }
 
-
+/* styles for the contact section */
 section#contact ul {
   text-align: center;
   padding: 0;
@@ -188,6 +194,7 @@ section#contact li {
   margin-right: 20px;
 }
 
+/* media queries */
 @media screen and (max-width: 768px) {
   .applications a {
     flex-basis: calc(50% - 20px);
