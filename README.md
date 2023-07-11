@@ -27,4 +27,3 @@ Tutor(Faran Navazi) recommended I use "display: block" inside the media query.
 ## Link to My Portfolio
 
 https://sacredsoulrend.github.io/my-portfolio/
-
