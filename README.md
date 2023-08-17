@@ -23,6 +23,7 @@ I got my reset css from here: http://meyerweb.com/eric/tools/css/reset/#my-portf
 
 Tutor(Faran Navazi) recommended I use "display: block" inside the media query.
 
+![Alt text](My-Portfolio.jpeg)
 
 ## Link to My Portfolio
 
