@@ -24,7 +24,6 @@ const Resume = () => {
         <li className='mb-2'>SQL (Relational Databases)</li>
         <li className='mb-2'>NoSQL (MongoDB, or other NoSQL databases)</li>
         <li className='mb-2'>MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
-        {/* Add more skills as needed */}
       </ul>
 
       <div className='border-b-2 border-white mb-6' />

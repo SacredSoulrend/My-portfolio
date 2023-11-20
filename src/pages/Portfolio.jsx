@@ -41,15 +41,20 @@ const App = () => {
         image="JATE.png"
         githubLink="https://github.com/SacredSoulrend/text-editor"
       />
-            <Project
+      <Project
         title="Code Quiz"
         image="255750033-f87737e4-f8ec-474c-abc0-bc5c7d80c905.jpeg"
         githubLink="https://github.com/SacredSoulrend/code-quiz"
       />
-            <Project
+       <Project
         title="Work Day Scheduler"
         image="257121033-94d62d20-f538-4565-bc7b-4bd5618a700b.png"
         githubLink="https://github.com/SacredSoulrend/work-day-scheduler"
+      />
+       <Project
+        title="Express Note Taker"
+        image="Express.js note taker screenshot 2.png"
+        githubLink="https://github.com/SacredSoulrend/express.js-note-taker"
       />
     </div>
   );
