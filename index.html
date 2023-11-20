@@ -2,102 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Son's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Son Giang's Portfolio</title>
   </head>
-
   <body>
-    <header>
-      <h1>Son's Portfolio</h1>
-    </header>
-
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-
-    <main>
-      <section id="about">
-        <h2>About Me</h2>
-        <h3>Name: Son Giang</h3>
-        <a href="https://www.cbr.com/naruto-uzumaki-best-things/"></a>
-        <img
-          src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/03/Naruto-happy-in-Shippuden.jpg"
-          alt="Totally Me"
-          width="900"
-          height="500"
-        />
-        <p>
-          Hello, my name is Son, and I am thrilled to dive into the world of
-          coding. I'm new to this fascinating field, but my passion for
-          technology and my eagerness to learn have propelled me forward. With
-          each new challenge, I'm ready to embrace the power of coding to
-          create, innovate, and solve problems. I approach this journey with
-          curiosity and determination, excited to unravel the complexities and
-          unlock the endless possibilities that programming offers. I believe
-          that my fresh perspective and open-mindedness will bring a unique
-          approach to my coding endeavors. As I write each line of code, my
-          knowledge expands, paving the way for an exciting future in the world
-          of programming.
-        </p>
-      </section>
-
-      <section id="work">
-        <h2>Work</h2>
-        <div class="applications">
-          <a
-            href="https://github.com/SacredSoulrend/horiseon-refactoring-project"
-          >
-            <p>Horiseon Refactoring</p>
-            <img
-              src="assets/images/Screenshot 2023-06-26 003401.png"
-              alt="Application 1"
-            />
-          </a>
-          <a href="https://stephen-garcia.github.io/RecipeProject/">
-            <p>One Click Eats</p>
-            <img
-              src="assets/images/one-click-eats-1.jpeg"
-              alt="Application 2"
-            />
-          </a>
-          <a href="coming soon">
-            <p>Coming Soon...</p>
-            <img src="assets/images/coming soon.png" alt="Coming Soon..." />
-          </a>
-        </div>
-      </section>
-
-      <section id="contact">
-        <h2>Contact</h2>
-        <ul>
-          <li>
-            Email: <a href="mailto:sgiangt@gmail.com">sgiangt@gmail.com</a>
-          </li>
-          <li>
-            GitHub:
-            <a href="https://github.com/SacredSoulrend">Visit my GitHub</a>
-          </li>
-        </ul>
-      </section>
-    </main>
-
-    <script>
-      //  Smooth scroll functionality for the navigation links
-      // I got this code from stack overflow: https://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link
-      document.querySelectorAll("nav a").forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
-
-          document.querySelector(this.getAttribute("href")).scrollIntoView({
-            behavior: "smooth",
-          });
-        });
-      });
-    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
