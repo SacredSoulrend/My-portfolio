@@ -1,30 +1,32 @@
-## User Story
+# Son Giang's Portfolio
 
-I WANT to build a deployed portfolio of work samples as a web developer so that I can share my work and demonstrate whether or not I'm a strong contender for a position that is open.
+## Description
 
-## Acceptance Criteria
+Welcome to my portfolio! I'm Son Giang, a passionate and creative Full Stack Developer. This portfolio showcases my skills, projects, and experience in web development.
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:<br>
+## Portfolio
 
-GIVEN I need to sample of my previous work<br>
-WHEN I load my portfolio, I am presented with my name, a recent photo or avatar, and links to sections about me, my work, and how to contact me<br>
-WHEN I click one of the links in the navigation, the UI scrolls to the corresponding section<br>
-WHEN I click on the link to the section about my work, the UI scrolls to a section with titled images of my applications<br>
-WHEN I am presented with my first application, that application's image should be larger in size than the others<br>
-WHEN I click on the images of the applications, I am taken to that deployed application<br>
-WHEN I resize the page or view the site on various screens and devices, I am presented with a responsive layout that adapts to my viewport
+![Alt text](<src/assets/images/Screenshot 2023-11-19 234134.png>)
 
-## Credits
+## License
+![License](https://img.shields.io/badge/license-MIT-yellow)
 
-Smooth scroll functionality for the navigation links:<br>
-I got this code from stack overflow: https://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link<br>
+## License
 
-I got my reset css from here: http://meyerweb.com/eric/tools/css/reset/#my-portfolio
+MIT License
 
-Tutor(Faran Navazi) recommended I use "display: block" inside the media query.
+## Contributing
+None
 
-![Alt text](My-Portfolio.jpeg)
+## Tests
+None
 
-## Link to My Portfolio
+## Questions
+For additional questions, contact .
+GitHub: [SacredSoulrend](https://github.com/SacredSoulrend)
 
-https://sacredsoulrend.github.io/my-portfolio/
+## Resources
+React: https://www.youtube.com/watch?v=hQAHSlTtcmY&ab_channel=WebDevSimplified<br>
+React icons: https://react-icons.github.io/react-icons/<br>
+React router: https://www.youtube.com/watch?v=TWz4TjSssbg&ab_channel=Trevolt<br>
+Tailwind: https://tailwindcss.com/docs/guides/vite and https://www.youtube.com/watch?v=L2KHCWJ3gjs&ab_channel=AdrianTwarog
