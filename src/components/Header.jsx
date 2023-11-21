@@ -3,7 +3,7 @@ import { HiBars3BottomRight, HiOutlineXMark } from 'react-icons/hi2';
 import MenuOverlay from './MenuOverlay';
 import Navigation from './Navigation';
 
-function Header({ handleNavClick }) {
+function Header({ handleNavClick, activeSection }) {
   const [toggle, setToggle] = useState(false);
   const menuList = [
     {
@@ -27,12 +27,10 @@ function Header({ handleNavClick }) {
       title: 'RESUME',
     },
   ];
-  const [currentSection, setCurrentSection] = useState('home');
 
   const handleNavigationClick = (section) => {
-    setCurrentSection(section);
     handleNavClick(section);
-    setToggle(false); 
+    setToggle(false);
   };
 
   return (
@@ -45,7 +43,7 @@ function Header({ handleNavClick }) {
       <div className='hidden md:flex gap-4'>
         <Navigation
           menuList={menuList}
-          currentSection={currentSection}
+          currentSection={activeSection}
           handleNavClick={handleNavigationClick}
         />
       </div>
@@ -68,3 +66,4 @@ function Header({ handleNavClick }) {
 }
 
 export default Header;
+
