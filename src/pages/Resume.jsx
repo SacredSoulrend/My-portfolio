@@ -6,7 +6,7 @@ const Resume = () => {
       <h2 className='text-4xl font-bold mb-8 text-center'>🚀 My Resume 🚀</h2>
       <p className='text-lg mb-8 text-center'>
         Download my{' '}
-        <a href='/path-to-your-resume.pdf aka coming soon' target='_blank' rel='noopener noreferrer' className='text-blue-500 underline'>
+        <a href='src/assets/images/Resume2023.pdf' target='_blank' rel='noopener noreferrer' className='text-blue-500 underline'>
           resume
         </a>
       </p>
