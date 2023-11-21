@@ -1,4 +1,5 @@
 import React from 'react';
+import resumePDF from '../assets/images/Resume2023.pdf';
 
 const Resume = () => {
   return (
@@ -6,7 +7,7 @@ const Resume = () => {
       <h2 className='text-4xl font-bold mb-8 text-center'>🚀 My Resume 🚀</h2>
       <p className='text-lg mb-8 text-center'>
         Download my{' '}
-        <a href='src/assets/images/Resume2023.pdf' target='_blank' rel='noopener noreferrer' className='text-blue-500 underline'>
+        <a href={resumePDF} target='_blank' rel='noopener noreferrer' className='text-blue-500 underline'>
           resume
         </a>
       </p>
