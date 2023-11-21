@@ -1,4 +1,5 @@
 import React from 'react';
+import avatarImage from '../assets/images/5a2a5924f60022165452f6fbf65bdd56.jpg';
 
 function Hero() {
   return (
@@ -11,7 +12,7 @@ function Hero() {
       <div className='flex justify-center group'>
         <div className='h-[320px] w-[250px] p-2 rounded-[20px] bg-gradient-to-b from-[#FF004D]  to-[#2A26B8] relative overflow-hidden transform transition-transform duration-300 group-hover:scale-105'>
           <img
-            src="src/assets/images/f5c51d6ace6d9cd9fbcdf37dadda2fbb.webp"
+            src={avatarImage}
             alt="Son's Avatar"
             className='h-full w-full object-cover rounded-[20px] transition-opacity duration-300 group-hover:opacity-75'
           />
@@ -26,4 +27,5 @@ function Hero() {
 }
 
 export default Hero;
+
 
