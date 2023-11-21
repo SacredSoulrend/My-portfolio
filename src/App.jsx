@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 import './App.css';
 
 function App() {
-  const [currentSection, setCurrentSection] = useState('about-me');
+  const [currentSection, setCurrentSection] = useState('home');
 
   const handleNavClick = (section) => {
     setCurrentSection(section);
