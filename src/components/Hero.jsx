@@ -1,5 +1,5 @@
 import React from 'react';
-import avatarImage from '../assets/images/5a2a5924f60022165452f6fbf65bdd56.jpg';
+import avatarImage from '../assets/images/9cded921067795686be1df7a7f6b0d20.webp';
 
 function Hero() {
   return (
