@@ -26,7 +26,7 @@ For additional questions, contact .
 GitHub: [SacredSoulrend](https://github.com/SacredSoulrend)
 
 ## Resources
-React: https://www.youtube.com/watch?v=hQAHSlTtcmY&ab_channel=WebDevSimplified<br>
 React icons: https://react-icons.github.io/react-icons/<br>
 React router: https://www.youtube.com/watch?v=TWz4TjSssbg&ab_channel=Trevolt<br>
-Tailwind: https://tailwindcss.com/docs/guides/vite and https://www.youtube.com/watch?v=L2KHCWJ3gjs&ab_channel=AdrianTwarog
+Tailwind: https://tailwindcss.com/docs/guides/vite and https://www.youtube.com/watch?v=L2KHCWJ3gjs&ab_channel=AdrianTwarog<br>
+Netlify refresh issue fix: https://stackoverflow.com/questions/58065603/netlify-renders-404-on-page-refresh-using-react-and-react-router
