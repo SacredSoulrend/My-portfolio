@@ -1,7 +1,7 @@
 import React from 'react';
 import avatarImage from '../assets/images/9cded921067795686be1df7a7f6b0d20.webp';
 
-function Hero() {
+function Home() {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 pt-10 items-center'>
       <div className='mb-10'>
@@ -26,6 +26,6 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Home;
 
 
