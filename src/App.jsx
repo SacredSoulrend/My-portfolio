@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Outlet, useNavigate } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -8,9 +8,13 @@ function App() {
   const navigate = useNavigate();
 
   const handleNavClick = (section) => {
-    // Use React Router's navigate function to change the route
     navigate(section);
   };
+
+  // useEffect to navigate to the home page on component mount (page refresh)
+  useEffect(() => {
+    navigate('/');
+  }, [navigate]);
 
   return (
     <>
@@ -26,4 +30,3 @@ function App() {
 }
 
 export default App;
-
