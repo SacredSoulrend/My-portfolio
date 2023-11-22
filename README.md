@@ -6,6 +6,7 @@ Welcome to my portfolio! I'm Son Giang, a passionate and creative Full Stack Dev
 
 ## Portfolio
 
+You can visit my portfolio here: https://songiang.netlify.app/<br>
 ![Alt text](<src/assets/images/Screenshot 2023-11-19 234134.png>)
 
 ## License
